@@ -2,6 +2,8 @@
 
 	namespace app\modules\admin;
 
+	use Yii;
+
 	/**
 	 * admin module definition class
 	 */
@@ -11,6 +13,7 @@
 		 * {@inheritdoc}
 		 */
 		public $controllerNamespace = 'app\modules\admin\controllers';
+		public $layout = 'main.php';
 
 		/**
 		 * {@inheritdoc}
@@ -18,7 +21,9 @@
 		public function init()
 		{
 			parent::init();
-
-			// custom initialization code goes here
+			$this->setAliases([
+				'@admin-assets' => __DIR__ . '/public'
+			]);
+			Yii::configure($this, require __DIR__ . '/config/config.php');
 		}
 	}
