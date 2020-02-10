@@ -33,19 +33,18 @@ tests/_support/_generated
 /.vagrant
 
 # All another folders
-assets
-commands
-config
-controllers
-mail
-models
-runtime
-tests
-vagrant
-vendor
-views
-web
-widgets
+/assets
+/commands
+/config
+/controllers
+/mail
+/models
+/runtime
+/tests
+/vagrant
+/views
+/web
+/widgets
 
 # All another files
 .bowerrc
