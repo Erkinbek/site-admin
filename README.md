@@ -8,3 +8,8 @@ Add this line to your app
      ],
      ......
 ```
+
+run migrations
+ ```
+yii migrate --migrationPath=@app/modules/admin/migrations
+```
