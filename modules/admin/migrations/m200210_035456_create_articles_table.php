@@ -25,6 +25,33 @@
 				'img' => $this->string(55),
 				'status' => $this->integer(2),
 			]);
+
+			$this->addForeignKey(
+				'fk-articles-language-id',
+				'articles',
+				'langugage_id',
+				'languages',
+				'id',
+				'CASCADE'
+			);
+
+			$this->addForeignKey(
+				'fk-articles-category-id',
+				'articles',
+				'category_id',
+				'categories',
+				'id',
+				'CASCADE'
+			);
+
+			$this->addForeignKey(
+				'fk-articles-author-id',
+				'articles',
+				'author_id',
+				'users',
+				'id',
+				'CASCADE'
+			);
 		}
 
 		/**
