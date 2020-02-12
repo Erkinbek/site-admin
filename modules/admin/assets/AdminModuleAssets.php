@@ -11,7 +11,6 @@ class AdminModuleAssets extends AssetBundle
 	public $css = [
 		'dist/css/adminlte.min.css',
 		'plugins/fontawesome-free/css/all.min.css',
-//		'https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'
 	];
 	public $js = [
 		'plugins/jquery/jquery.min.js',

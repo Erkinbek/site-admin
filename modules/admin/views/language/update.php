@@ -23,4 +23,3 @@
 		<!-- /.row -->
 	</div><!-- /.container-fluid -->
 </section>
-
