@@ -1,6 +1,7 @@
 <?php
+	$this->title = "Bo'limni tahrilash: " . $model->name;
 	$this->params['breadcrumbs'][] = ['label' => 'Bo\'limlar', 'url' => ['/admin/categories']];
-	$this->params['breadcrumbs'][] = ['label' => 'Yangi bo\'lim', 'url' => ['/admin/categories/create']];
+	$this->params['breadcrumbs'][] = ['label' => $this->title, 'url' => ['/admin/categories/update?id=' . $model->id]];
 ?>
 
 <section class="content">
@@ -10,7 +11,7 @@
 				<!-- general form elements -->
 				<div class="card card-primary">
 					<div class="card-header">
-						<h3 class="card-title">Yangi bo'lim qo'shish</h3>
+						<h3 class="card-title">Yangi til qo'shish</h3>
 					</div>
 					<!-- /.card-header -->
 					<!-- form start -->
