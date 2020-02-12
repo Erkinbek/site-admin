@@ -36,7 +36,7 @@ class LanguageController extends Controller
 		if ($model->load(Yii::$app->request->post()) && $model->save()) {
 			$this->redirect('/admin/language/index');
 		}
-		return $this->render('create', [
+		return $this->render('update', [
 			'model' => $model
 		]);
 	}
