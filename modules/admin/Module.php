@@ -25,5 +25,8 @@
 				'@admin-assets' => __DIR__ . '/public'
 			]);
 			Yii::configure($this, require __DIR__ . '/config/config.php');
+			$handler = $this->get('errorHandler');
+			Yii::$app->set('errorHandler', $handler);
+			$handler->register();
 		}
 	}

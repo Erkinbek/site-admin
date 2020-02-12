@@ -1,8 +1,14 @@
 <?php
 
-$config =  [
+	use yii\web\ErrorHandler;
+
+	$config =  [
 	'params' => [],
-	'components' => [],
+	'components' => [
+		'errorHandler' => [
+			'class' => ErrorHandler::className(),
+		]
+	],
 ];
 
 return $config;
