@@ -7,7 +7,7 @@
 	'components' => [
 		'errorHandler' => [
 			'class' => ErrorHandler::className(),
-		]
+		],
 	],
 ];
 

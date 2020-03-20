@@ -16,7 +16,7 @@ class AdminModuleAssets extends AssetBundle
 		'plugins/jquery/jquery.min.js',
 		'plugins/bootstrap/js/bootstrap.bundle.min.js',
 		'dist/js/adminlte.min.js',
-		'dist/js/sweetalert2.9.min.js'
+		'dist/js/sweetalert2.9.min.js',
 	];
 	public $depends = [
 	];
