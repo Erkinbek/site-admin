@@ -39,10 +39,10 @@
 		public function rules()
 		{
 			return [
-				[['title', 'fulltext', 'author_id', 'langugage_id', 'created', 'category_id'], 'required'],
-				[['hits', 'author_id', 'langugage_id', 'created', 'category_id', 'status'], 'integer'],
-				[['title', 'introtext', 'fulltext'], 'string', 'max' => 255],
+				[['title', 'fulltext', 'introtext', 'author_id', 'langugage_id', 'category_id'], 'required'],
+				[['author_id', 'langugage_id', 'created', 'category_id', 'created', 'status'], 'integer'],
 				[['img'], 'string', 'max' => 55],
+				[['hits'], 'safe'],
 				[['author_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['author_id' => 'id']],
 				[['category_id'], 'exist', 'skipOnError' => true, 'targetClass' => Categories::className(), 'targetAttribute' => ['category_id' => 'id']],
 				[['langugage_id'], 'exist', 'skipOnError' => true, 'targetClass' => Languages::className(), 'targetAttribute' => ['langugage_id' => 'id']],
