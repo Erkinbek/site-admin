@@ -14,6 +14,7 @@
 		 */
 		public $controllerNamespace = 'app\modules\site\controllers';
 		public $layout = 'main.php';
+		private $_assetsUrl;
 
 		/**
 		 * {@inheritdoc}

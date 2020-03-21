@@ -4,11 +4,7 @@
 	/* @var $content string */
 
 	use app\modules\site\assets\SiteModuleAssets;
-	use app\widgets\Alert;
 	use yii\helpers\Html;
-	use yii\bootstrap\Nav;
-	use yii\bootstrap\NavBar;
-	use yii\widgets\Breadcrumbs;
 
 	SiteModuleAssets::register($this);
 ?>

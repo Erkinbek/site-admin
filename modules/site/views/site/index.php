@@ -1,7 +1,7 @@
 <!-- END nav -->
 <div class="hero-wrap">
 	<div class="home-slider owl-carousel">
-		<div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+		<div class="slider-item" style="background-image:url(public/images/bg_1.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-start">
@@ -225,7 +225,7 @@
 	</div>
 </section>
 
-<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
+<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(/images/bg_3.jpg);">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row d-md-flex justify-content-end">
