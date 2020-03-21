@@ -1,12 +1,19 @@
+Used templates<br>
+* Admin module => [AdminLTE v3.0.2](http://adminlte.io "Colorlib AdminLTE 3")
+* Site module => [Auto repair](https://colorlib.com/wp/template/autorepair/ "Colorlib AutoRepair")
+
 Add this line to your app
 ```
-     ......
-     'modules' => [
-         'admin' => [
-             'class' => 'app\modules\admin\Module',
-         ],
-     ],
-     ......
+......
+'modules' => [
+    'admin' => [
+        'class' => 'app\modules\admin\Module',
+    ],
+    'site' => [
+        'class' => 'app\modules\site\SiteModule',
+    ],
+],
+......
 ```
 
 run migrations
