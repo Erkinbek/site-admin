@@ -40,6 +40,10 @@ class SiteModuleAssets extends AssetBundle
 	public $depends = [
 	];
 
+	public $publishOptions = [
+		'forceCopy'=>true,
+	];
+
 	public function init()
 	{
 		parent::init();
