@@ -25,29 +25,29 @@
 	<div class="container">
 		<div class="row justify-content-between">
 			<div class="col-md-3 d-flex align-items-center">
-				<a class="navbar-brand" href="index.html">Autorepair<span>.</span></a>
+				<a href="/"><img src="/images/elements/logo.png" alt=""></a>
 			</div>
 			<div class="col-md-7">
 				<div class="row">
 					<div class="col">
 						<div class="top-wrap d-flex">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
-							<div class="text"><span>Address</span><span>721 New York NY 10016</span></div>
+							<div class="text"><span>Manzil</span><span>Koson tumani</span></div>
 						</div>
 					</div>
 					<div class="col">
 						<div class="top-wrap d-flex">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
-							<div class="text"><span>Call us</span><span>(+01) 123 456 7890</span></div>
+							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
+							<div class="text"><span>Ishonch telefoni</span><span>8 (375) 59-21-628</span></div>
 						</div>
 					</div>
 					<div class="col-md-3 d-flex justify-content-end align-items-center">
 						<div class="social-media">
 							<p class="mb-0 d-flex">
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-								<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+								<a href="https://facebook.com/kosontumanihokimligi" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+								<a href="https://t.me/kosontumani_uz" class="d-flex align-items-center justify-content-center"><span class="fa fa-telegram"><i class="sr-only">Telegram</i></span></a>
+								<a href="https://www.youtube.com/channel/UCpjVmOMrmxgaIvD6viVZ5TA" class="d-flex align-items-center justify-content-center"><span class="fa fa-youtube"><i class="sr-only">Youtube</i></span></a>
+								<a href="/contact" class="d-flex align-items-center justify-content-center"><span class="fa fa-envelope"><i class="sr-only">Contact</i></span></a>
 							</p>
 						</div>
 					</div>
@@ -64,40 +64,38 @@
 		</button>
 		<form action="#" class="searchform order-lg-last">
 			<div class="form-group d-flex">
-				<input type="text" class="form-control pl-3" placeholder="Search">
+				<input type="text" class="form-control pl-3" placeholder="<?=Yii::t('common','Search')?>">
 				<button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
 			</div>
 		</form>
 		<div class="collapse navbar-collapse" id="ftco-nav">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active"><a href="/" class="nav-link"><?= Yii::t('common', 'Home page') ?></a></li>
-				<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-				<li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
-				<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				<li class="nav-item"><a href="about.html" class="nav-link"><?=Yii::t('common','Regional government')?></a></li>
+				<li class="nav-item"><a href="services.html" class="nav-link"><?=Yii::t('common','About the region')?></a></li>
+				<li class="nav-item"><a href="project.html" class="nav-link"><?=Yii::t('common','Interactive services')?></a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link"><?=Yii::t('common','Contact')?></a></li>
 			</ul>
 		</div>
 	</div>
 </nav>
+<!-- END nav -->
 <?= $content ?>
 <footer class="footer ftco-section">
 	<div class="container">
 		<div class="row mb-5">
 			<div class="col-md-6 col-lg">
 				<div class="ftco-footer-widget mb-4">
-					<h2 class="logo"><a href="#">Autorepair<span>.</span></a></h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p><?=Yii::t('common','Copyright')?></p>
 					<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
-						<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-						<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-						<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+						<li class="ftco-animate"><a href="https://t.me/kosontumani_uz"><span class="fa fa-telegram"></span></a></li>
+						<li class="ftco-animate"><a href="https://www.facebook.com/kosontumanihokimligi"><span class="fa fa-facebook"></span></a></li>
+						<li class="ftco-animate"><a href="https://www.youtube.com/channel/UCpjVmOMrmxgaIvD6viVZ5TA"><span class="fa fa-youtube"></span></a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg">
 				<div class="ftco-footer-widget mb-4 ml-md-5">
-					<h2 class="ftco-heading-2">Services</h2>
 					<ul class="list-unstyled">
 						<li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Oil Change</a></li>
 						<li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Batteries</a></li>
@@ -109,29 +107,25 @@
 			</div>
 			<div class="col-md-6 col-lg">
 				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Contact information</h2>
 					<div class="block-23 mb-3">
 						<ul>
-							<li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-							<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-							<li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+							<li><span class="icon fa fa-map-marker"></span><span class="text">Koson tumani</span></li>
+							<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">8 (375) 59-21-628</span></a></li>
+							<li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@kosont.uz</span></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg">
 				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Business Hours</h2>
 					<div class="opening-hours">
-						<h4>Opening Days:</h4>
+						<h4>Ish vaqti:</h4>
 						<p class="pl-3">
-							<span>Monday – Friday : 9am to 20 pm</span>
-							<span>Saturday : 9am to 17 pm</span>
+							<span>Dushanba - Juma : 09:00 - 18:00</span>
 						</p>
-						<h4>Vacations:</h4>
+						<h4>Dam olish kunlari:</h4>
 						<p class="pl-3">
-							<span>All Sunday Days</span>
-							<span>All Official Holidays</span>
+							<span>Shanba, Yakshanba</span>
 						</p>
 					</div>
 				</div>

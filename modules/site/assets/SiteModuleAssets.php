@@ -16,7 +16,6 @@ class SiteModuleAssets extends AssetBundle
 		"css/magnific-popup.css",
 		"css/bootstrap-datepicker.css",
 		"css/jquery.timepicker.css",
-		"css/flaticon.css",
 		"css/style.css",
 	];
 	public $js = [

@@ -1,30 +1,41 @@
-<!-- END nav -->
 <div class="hero-wrap">
 	<div class="home-slider owl-carousel">
-		<div class="slider-item" style="background-image:url(public/images/bg_1.jpg);">
+		<div class="slider-item" style="background-image:url(images/slider/bg_1.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-start">
 					<div class="col-md-6 ftco-animate">
 						<div class="text w-100">
-							<h2>We are best car repair services</h2>
-							<h1 class="mb-4">Make your car last longer</h1>
-							<p><a href="#" class="btn btn-primary">Book an appointment</a></p>
+							<h1 class="mb-4"><?=Yii::t('common','About regional government')?></h1>
+							<p><a href="#" class="btn btn-primary"><?=Yii::t('common','detail')?></a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+		<div class="slider-item" style="background-image:url(images/slider/bg_2.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-start">
 					<div class="col-md-6 ftco-animate">
 						<div class="text w-100">
-							<h2>We care about your car</h2>
-							<h1 class="mb-4">It's time to come to repair your car</h1>
-							<p><a href="#" class="btn btn-primary">Book an appointment</a></p>
+							<h1 class="mb-4"><?=Yii::t('common','Virtual reception')?></h1>
+							<p><a href="#" class="btn btn-primary"><?=Yii::t('common','detail')?></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="slider-item" style="background-image:url(images/slider/bg_3.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-start">
+					<div class="col-md-6 ftco-animate">
+						<div class="text w-100">
+							<h1 class="mb-4"><?=Yii::t('common','Statistics')?></h1>
+							<p><a href="#" class="btn btn-primary"><?=Yii::t('common','detail')?></a></p>
 						</div>
 					</div>
 				</div>
@@ -33,50 +44,29 @@
 	</div>
 </div>
 
-<section class="intro">
-	<div class="container intro-wrap">
-		<div class="row no-gutters">
-			<div class="col-md-12 col-lg-9 bg-intro d-sm-flex align-items-center align-items-stretch">
-				<div class="intro-box d-flex align-items-center">
-					<div class="icon d-flex align-items-center justify-content-center">
-						<i class="flaticon-repair"></i>
-					</div>
-					<h2 class="mb-0">Are you ready? <span>Let's repair it now!</span></h2>
-				</div>
-				<a href="#" class="bg-primary btn-custom d-flex align-items-center"><span>Book an Appointment</span></a>
-			</div>
-		</div>
-	</div>
-</section>
-
 <section class="ftco-section">
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
-				<span class="subheading">We offer Services</span>
-				<h2>Our car services</h2>
+				<h2><?=Yii::t('common','General information')?></h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4 services ftco-animate">
 				<div class="d-block d-flex">
 					<div class="icon d-flex justify-content-center align-items-center">
-						<span class="flaticon-car-service"></span>
+						<span style="color: #ffffff"><i class="fa fa-history" aria-hidden="true"></i></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">Oil change</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<h3 class="heading text-center"><?=Yii::t('common','Year of origin')?></h3>
 					</div>
 				</div>
 				<div class="d-block d-flex">
 					<div class="icon d-flex justify-content-center align-items-center">
-						<span class="flaticon-tyre"></span>
+						<span style="color: #ffffff"><i class="fa fa-square-o" aria-hidden="true"></i></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">Tire Change</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<h3 class="heading text-center"><?=Yii::t('common','Area of region')?></h3>
 					</div>
 				</div>
 
@@ -84,22 +74,18 @@
 			<div class="col-md-4 services ftco-animate">
 				<div class="d-block d-flex">
 					<div class="icon d-flex justify-content-center align-items-center">
-						<span class="flaticon-battery"></span>
+						<span style="color: #ffffff"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">Batteries</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<h3 class="heading text-center"><?=Yii::t('common','Center of region')?></h3>
 					</div>
 				</div>
 				<div class="d-block d-flex">
 					<div class="icon d-flex justify-content-center align-items-center">
-						<span class="flaticon-car-engine"></span>
+						<span style="color: #ffffff"><i class="fa fa-users" aria-hidden="true"></i></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">Engine Repair</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<h3 class="heading text-center"><?=Yii::t('common','Population')?></h3>
 					</div>
 				</div>
 			</div>
@@ -107,22 +93,18 @@
 			<div class="col-md-4 services ftco-animate">
 				<div class="d-block d-flex">
 					<div class="icon d-flex justify-content-center align-items-center">
-						<span class="flaticon-tow-truck"></span>
+						<span style="color: #ffffff"><i class="fa fa-yelp" aria-hidden="true"></i></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">Tow Truck</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<h3 class="heading text-center"><?=Yii::t('common','Crop area')?></h3>
 					</div>
 				</div>
 				<div class="d-block d-flex">
 					<div class="icon d-flex justify-content-center align-items-center">
-						<span class="flaticon-repair"></span>
+						<span style="color: #ffffff"><i class="fa fa-users" aria-hidden="true"></i></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">Car Maintenance</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<h3 class="heading text-center"><?=Yii::t('common','Districts')?></h3>
 					</div>
 				</div>
 			</div>
@@ -134,8 +116,8 @@
 	<div class="container">
 		<div class="row d-flex no-gutters">
 			<div class="col-md-6 d-flex">
-				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
-					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center mb-4 mb-sm-0" style="background-image:url(images/elements/video.jpg);">
+					<a href="https://www.youtube.com/watch?v=3dsBcJiS2CY" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
 						<span class="fa fa-play"></span>
 					</a>
 				</div>
@@ -143,34 +125,9 @@
 			<div class="col-md-6 pl-md-5">
 				<div class="row justify-content-start py-5">
 					<div class="col-md-12 heading-section ftco-animate">
-						<span class="subheading">Welcome to Autorepair</span>
-						<h2 class="mb-4">We help more than 45 years serving customer car</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-						</p>
-						<div class="tabulation-2 mt-4">
-							<ul class="nav nav-pills nav-fill d-md-flex d-block">
-								<li class="nav-item mb-md-0 mb-2">
-									<a class="nav-link active py-2" data-toggle="tab" href="#home1">Our Mission</a>
-								</li>
-								<li class="nav-item px-lg-2 mb-md-0 mb-2">
-									<a class="nav-link py-2" data-toggle="tab" href="#home2">Our Vision</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home3">Our Value</a>
-								</li>
-							</ul>
-							<div class="tab-content rounded mt-2">
-								<div class="tab-pane container p-0 active" id="home1">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-								<div class="tab-pane container p-0 fade" id="home2">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-								<div class="tab-pane container p-0 fade" id="home3">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
+						<h2 class="mb-4">
+							<?=Yii::t('common','Video description')?>
+						</h2>
 					</div>
 				</div>
 			</div>
@@ -184,111 +141,42 @@
 			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 text-center">
 					<div class="text">
-						<strong class="number" data-number="45">0</strong>
+						<strong class="number" data-number="156">0</strong>
 					</div>
 					<div class="text">
-						<span>Years of Experienced</span>
+						<span><?=Yii::t('common','Appeals count')?></span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 text-center">
 					<div class="text">
-						<strong class="number" data-number="8500">0</strong>
+						<strong class="number" data-number="156">0</strong>
 					</div>
 					<div class="text">
-						<span>Project completed</span>
+						<span><?=Yii::t('common','Considered')?></span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 text-center">
 					<div class="text">
-						<strong class="number" data-number="2342">0</strong>
+						<strong class="number" data-number="15">0</strong>
 					</div>
 					<div class="text">
-						<span>Happy Customers</span>
+						<span><?=Yii::t('common','Explained')?></span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 text-center">
 					<div class="text">
-						<strong class="number" data-number="30">0</strong>
+						<strong class="number" data-number="30">6</strong>
 					</div>
 					<div class="text">
-						<span>Award Winning</span>
+						<span><?=Yii::t('common','Rejected')?></span>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(/images/bg_3.jpg);">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row d-md-flex justify-content-end">
-			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate heading-section heading-section-white">
-				<span class="subheading">Booking an Appointment</span>
-				<h2 class="mb-4">Free Consultation</h2>
-				<form action="#" class="appointment">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<div class="form-field">
-									<div class="select-wrap">
-										<div class="icon"><span class="fa fa-chevron-down"></span></div>
-										<select name="" id="" class="form-control">
-											<option value="">Select services</option>
-											<option value="">Change Oil</option>
-											<option value="">Engine Repair</option>
-											<option value="">Battery Replace</option>
-											<option value="">Change Tire</option>
-											<option value="">Tow Truck</option>
-										</select>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Your Name">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Vehicle number">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<div class="input-wrap">
-									<div class="icon"><span class="fa fa-calendar"></span></div>
-									<input type="text" class="form-control appointment_date" placeholder="Date">
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<div class="input-wrap">
-									<div class="icon"><span class="fa fa-clock-o"></span></div>
-									<input type="text" class="form-control appointment_time" placeholder="Time">
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<input type="submit" value="Send message" class="btn btn-dark py-3 px-4">
-							</div>
-						</div>
-					</div>
-				</form>
 			</div>
 		</div>
 	</div>
@@ -298,8 +186,7 @@
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-				<span class="subheading">Testimonies</span>
-				<h2>Happy Clients &amp; Feedbacks</h2>
+				<h2><?=Yii::t('common','Quotes')?></h2>
 			</div>
 		</div>
 		<div class="row ftco-animate">
@@ -390,7 +277,7 @@
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
-				<span class="subheading">News &amp; Blog</span>
+				<span class="subheading"><?=Yii::t('common','News')?></span>
 				<h2>Latest news from our blog</h2>
 			</div>
 		</div>
@@ -447,135 +334,61 @@
 	</div>
 </section>
 
-<section class="ftco-section bg-light">
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<span class="subheading">Price &amp; Plans</span>
-				<h2>Pricing</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="block-7">
-					<div class="text-center">
-						<span class="excerpt d-block">First PMS</span>
-						<span class="price"><sup>$</sup> <span class="number">78.98</span></span>
-
-						<div class="pricing-text">
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						</div>
-
-						<a href="#" class="btn btn-secondary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="block-7">
-					<div class="text-center">
-						<span class="excerpt d-block">Engine Diagnostics</span>
-						<span class="price"><sup>$</sup> <span class="number">83.75</span></span>
-
-						<div class="pricing-text">
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						</div>
-
-						<a href="#" class="btn btn-secondary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="block-7">
-					<div class="text-center">
-						<span class="excerpt d-block">Tow Truck</span>
-						<span class="price"><sup>$</sup> <span class="number">85.00</span></span>
-
-						<div class="pricing-text">
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						</div>
-
-						<a href="#" class="btn btn-secondary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="block-7">
-					<div class="text-center">
-						<span class="excerpt d-block">Car Wash</span>
-						<span class="price"><sup>$</sup> <span class="number">30.50</span></span>
-
-						<div class="pricing-text">
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						</div>
-
-						<a href="#" class="btn btn-secondary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
 <section class="ftco-section ftco-no-pb">
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
-				<span class="subheading">Projects</span>
-				<h2>Done Projects</h2>
+				<h2><?=Yii::t('common','Gallery')?></h2>
 			</div>
 		</div>
 	</div>
 	<div class="container-fluid px-md-0">
 		<div class="row no-gutters">
 			<div class="col-md-3 ftco-animate">
-				<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-					<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+				<div class="work img d-flex align-items-end" style="background-image: url(/images/gallery/1/1.jpg);">
+					<a href="/images/gallery/1/1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 						<span class="fa fa-expand"></span>
 					</a>
 					<div class="desc w-100 px-4">
 						<div class="text w-100 mb-3">
-							<span>Engine</span>
-							<h2><a href="work-single.html">Engine Testing Complated</a></h2>
+							<h2><a href="/gallery/1"><?=Yii::t('common','Gallery1')?></a></h2>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 ftco-animate">
-				<div class="work img d-flex align-items-end" style="background-image: url(images/work-2.jpg);">
-					<a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+				<div class="work img d-flex align-items-end" style="background-image: url(/images/gallery/2/1.jpg);">
+					<a href="/images/gallery/2/1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 						<span class="fa fa-expand"></span>
 					</a>
 					<div class="desc w-100 px-4">
 						<div class="text w-100 mb-3">
-							<span>Oil Change</span>
-							<h2><a href="work-single.html">Change Oil Completed</a></h2>
+							<h2><a href="/gallery/2"><?=Yii::t('common','Gallery2')?></a></h2>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 ftco-animate">
-				<div class="work img d-flex align-items-end" style="background-image: url(images/work-3.jpg);">
-					<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+				<div class="work img d-flex align-items-end" style="background-image: url(/images/gallery/3/1.jpg);">
+					<a href="/images/gallery/3/1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 						<span class="fa fa-expand"></span>
 					</a>
 					<div class="desc w-100 px-4">
 						<div class="text w-100 mb-3">
-							<span>Engine</span>
-							<h2><a href="work-single.html">Engine Diagnostics</a></h2>
+							<h2><a href="/gallery/3"><?=Yii::t('common','Gallery3')?></a></h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-md-3 ftco-animate">
-				<div class="work img d-flex align-items-end" style="background-image: url(images/work-4.jpg);">
-					<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+				<div class="work img d-flex align-items-end" style="background-image: url(/images/gallery/4/1.jpg);">
+					<a href="/images/gallery/4/1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 						<span class="fa fa-expand"></span>
 					</a>
 					<div class="desc w-100 px-4">
 						<div class="text w-100 mb-3">
-							<span>Tire</span>
-							<h2><a href="work-single.html">Tire Change</a></h2>
+							<h2><a href="/gallery/4"><?=Yii::t('common','Gallery4')?></a></h2>
 						</div>
 					</div>
 				</div>
